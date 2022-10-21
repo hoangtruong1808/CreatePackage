@@ -13,7 +13,7 @@ class TestServiceProvider extends ServiceProvider
      */
     public function register()
     {
-        //
+        $this->app->bind('TestFacade', \Hoangtruong1808\Test\TestPackage::class);
     }
 
     /**
