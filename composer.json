@@ -1,0 +1,15 @@
+{
+    "name": "n-truong/test",
+    "autoload": {
+        "psr-4": {
+            "NTruong\\Test\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "n-truong",
+            "email": "n-truong@plott.co.jp"
+        }
+    ],
+    "require": {}
+}
