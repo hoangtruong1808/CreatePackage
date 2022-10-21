@@ -11,5 +11,8 @@
             "email": "n-truong@plott.co.jp"
         }
     ],
-    "require": {}
+    "license": "MIT",
+    "require": {
+        "php": "^5.6.0"
+    }
 }
