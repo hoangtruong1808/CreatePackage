@@ -13,7 +13,7 @@ class TestServiceProvider extends ServiceProvider
      */
     public function register()
     {
-        //
+        $this->app->bind('TestFacade', \Hoangtruong1808\Test\TestPackage::class);
     }
 
     /**
@@ -23,6 +23,6 @@ class TestServiceProvider extends ServiceProvider
      */
     public function boot()
     {
-        include __DIR__.'/../routes/web.php';
+        $this->loadRoutesFrom(__DIR__.'/../routes/web.php');
     }
 }
