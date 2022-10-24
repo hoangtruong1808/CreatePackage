@@ -23,6 +23,6 @@ class TestServiceProvider extends ServiceProvider
      */
     public function boot()
     {
-        include __DIR__.'/../routes/web.php';
+        $this->loadRoutesFrom(__DIR__.'/../routes/web.php');
     }
 }

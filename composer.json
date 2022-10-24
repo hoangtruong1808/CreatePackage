@@ -1,5 +1,6 @@
 {
-    "name": "n-truong/test",
+    "name": "hoangtruong1808/test",
+    "description": "This is test package of Truong",
     "autoload": {
         "psr-4": {
             "NTruong\\Test\\": "src/"
@@ -7,8 +8,8 @@
     },
     "authors": [
         {
-            "name": "n-truong",
-            "email": "n-truong@plott.co.jp"
+            "name": "HoangTruong",
+            "email": "hoangtruong1808"
         }
     ],
     "license": "MIT",
